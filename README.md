@@ -6,20 +6,21 @@ A practical reference for QA and release management.
 ---
 
 ## At a Glance
+
 ✅ Structured deployment processes for IDM and CRM systems  
+   (Designing maintainable workflows for enterprise environments)  
+
 ⚙️ Automation examples and CI/CD pipeline guidance  
+   (Applying real-world practices for release management)  
+
 📝 Checklists for pre- and post-deployment verification  
+   (Implementing QA steps to ensure deployment quality)  
+
 📊 Sample logs and reports (anonymized)  
-🎯 Portfolio-ready demonstration of professional QA/DevOps practices  
+   (Documenting outputs for transparency and audit readiness)  
 
-
-## Overview
-Demonstrates :  
-- Designing structured, maintainable **deployment processes**  
-- Implementing **verification and QA practices** for releases  
-- Documenting workflows and automation scripts  
-- Handling deployments in IDM, Salesforce and CI/CD environments  
-- Applying **anonymized, real-world practices** safely    
+🎯 Documentation of workflows and verification practices  
+   (Real-world scenarios without sensitive data)  
 
 
 ## Structure
@@ -28,5 +29,24 @@ Demonstrates :
 ├─ 📁 examples/ → Sample logs and configuration templates  
 ├─ 📁 reports/ → Verification and test reports  
 └─ README.md
+
+
+## 🔗 Related Repositories  
+```yaml
+jobs :  
+  - name: TestTrekker  
+    role: Test plans, workflows & automation scripts  
+    repo: github.com/LoubnaEA/TestTrekker
+
+  - name: TestDriveSelenium  
+    role: Data-driven automation with Selenium & POM  
+    repo: github.com/LoubnaEA/TestDriveSelenium  
+```
+
+
+[github.com/LoubnaEA/TestTrekker](https://github.com/LoubnaEA/TestTrekker)   
+[github.com/LoubnaEA/TestDriveSelenium](https://github.com/LoubnaEA/TestDriveSelenium)  
+
+
 
 
