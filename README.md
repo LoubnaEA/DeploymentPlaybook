@@ -1,16 +1,15 @@
 # DeploymentPlaybook
-Structured deployment procedures and verification steps for IDM, Salesforce and CI/CD environments.  
-Documentation of workflows, automation scripts and examples of logs and reports.  
+ **Deployment procedures, verification steps** and **CI/CD workflows**.  
+Covers IDM, Salesforce and generic CI/CD environments with reusable documentation, checklists, examples. 
 
 ---
 
-## At a Glance
-
-✅ Deployment processes for IDM and CRM systems   
+## At a Glance  
+✅ Deployment processes for IDM and CRM systems  
 ⚙️ Automation examples and CI/CD pipeline guidance  
-📝 Checklists for pre- and post-deployment verification  
+📝 Pre- and post-deployment verification checklists  
 📊 Sample logs and reports (anonymized)  
-🎯 Documentation of workflows and verification practices  
+🎯 Documentation of workflows and QA verification practices  
 
 
 ## Structure
@@ -19,6 +18,13 @@ Documentation of workflows, automation scripts and examples of logs and reports.
 ├─ 📁 examples/ → Sample logs and configuration templates  
 ├─ 📁 reports/  → Verification and test reports  
 └─ README.md
+
+
+## Sample Pre-Deployment Checklist
+- [ ] Backup database  
+- [ ] Verify test environment is clean  
+- [ ] Validate access credentials  
+- [ ] Run smoke tests on staging  
 
 
 ## 🔗 Related Repositories  
@@ -33,12 +39,11 @@ jobs :
     repo: github.com/LoubnaEA/TestDriveSelenium  
 ```
 
-[github.com/LoubnaEA/TestTrekker](https://github.com/LoubnaEA/TestTrekker)   
-[github.com/LoubnaEA/TestDriveSelenium](https://github.com/LoubnaEA/TestDriveSelenium)  
-
+[TestTrekker](https://github.com/LoubnaEA/TestTrekker)   
+[TestDriveSelenium](https://github.com/LoubnaEA/TestDriveSelenium)  
 
 ## Notes
-Deployment procedures are **generalized** and **anonymized** :  
+Deployment procedures are **generalized and anonymized** :  
 -- No real URLs, credentials or sensitive info  
--- Focus on **structured deployment** and **verification methodology**
-  
+-- Focus is on **structured deployment methodology** and **verification practices**  
+ 
