@@ -68,9 +68,9 @@ Rollback procedures ensure stability in case of a failed deployment.
 
 
 ### Notes & Tips  
-Always deploy during low-traffic windows  
-Use version control for metadata (Git branching)  
-Tag releases for traceability  
-Automate smoke and regression tests where possible  
-Maintain a QA checklist for each environment (sandbox, UAT, production)  
+Always deploy during low-traffic windows.  
+Use version control for metadata (Git branching).  
+Tag releases for traceability.  
+Automate smoke and regression tests where possible.  
+Maintain a QA checklist for each environment (sandbox, UAT, production).  
 
