@@ -24,10 +24,10 @@ It can be mapped to a more **operational process view** : **Preparation**, **Pip
 ### Preparation
 
 **Steps**
-- [ ] Ensure repository structure follows the agreed branching strategy (e.g., `main`, `develop`, `release/*`)  
-- [ ] Validate that all automated tests pass locally before committing  
-- [ ] Confirm environment variables and secrets are properly configured  
-- [ ] Review pipeline configuration files (e.g., YAML, Jenkinsfile, Azure DevOps pipeline)  
+- Ensure repository structure follows the agreed branching strategy (e.g., `main`, `develop`, `release/*`)  
+- Validate that all automated tests pass locally before committing  
+- Confirm environment variables and secrets are properly configured  
+- Review pipeline configuration files (e.g., YAML, Jenkinsfile, Azure DevOps pipeline)  
 
 **QA Role**
 - Review merge requests and associated test results  
@@ -39,10 +39,10 @@ It can be mapped to a more **operational process view** : **Preparation**, **Pip
 ### Pipeline Execution
 
 **Steps**
-1. Commit changes to the repository (trigger CI)  
-2. Run automated build and test steps  
-3. Validate build artifacts  
-4. Deploy automatically or manually to the next environment  
+- Commit changes to the repository (trigger CI)  
+- Run automated build and test steps  
+- Validate build artifacts  
+- Deploy automatically or manually to the next environment  
 
 **QA Role**
 - Monitor CI results and investigate failed test cases  
@@ -54,7 +54,7 @@ It can be mapped to a more **operational process view** : **Preparation**, **Pip
 ### Verification & Quality Gates
 Automated and manual checks ensure that every build meets quality and stability requirements before promotion.
 
-**Verification Steps**
+**Steps**
 - Review pipeline test summary (unit, integration, UI tests)  
 - Validate functional and API test outcomes  
 - Check performance and security scans (if included)  
