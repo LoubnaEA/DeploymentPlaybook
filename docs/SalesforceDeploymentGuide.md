@@ -9,10 +9,10 @@ Applies to CRM environments involving configuration, automation and metadata man
 Before deployment, ensure all configurations and metadata are validated and ready for release.
 
 **Steps**
-- [ ] Validate all metadata changes in sandbox  
-- [ ] Backup current production configuration (profiles, flows, layouts)  
-- [ ] Disable scheduled jobs and triggers (if applicable)  
-- [ ] Notify impacted business units  
+- Validate all metadata changes in sandbox  
+- Backup current production configuration (profiles, flows, layouts)  
+- Disable scheduled jobs and triggers (if applicable)  
+- Notify impacted business units  
 
 **QA Role**  
 - Validate that all stories or tickets have passed QA testing in sandbox  
@@ -25,10 +25,10 @@ Before deployment, ensure all configurations and metadata are validated and read
 Deployment should follow a controlled and traceable process to avoid inconsistencies.
 
 **Steps**
-1. Export metadata package from sandbox  
-2. Deploy via Change Set, SFDX CLI or CI/CD tool  
-3. Validate deployment in staging  
-4. Execute post-deployment smoke tests  
+- Export metadata package from sandbox  
+- Deploy via Change Set, SFDX CLI or CI/CD tool  
+- Validate deployment in staging  
+- Execute post-deployment smoke tests  
 
 **QA Role**  
 - Monitor the deployment process and review logs for errors  
@@ -40,7 +40,7 @@ Deployment should follow a controlled and traceable process to avoid inconsisten
 ### Verification
 Once deployed, a complete functional and technical validation must be performed.
 
-**Verification Steps**  
+**Steps**  
 - Check UI accessibility and navigation  
 - Verify key flows (Case, Opportunity, Account)  
 - Review Apex test results (≥ 75% coverage)  
