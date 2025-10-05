@@ -41,10 +41,10 @@ Deployment should follow a controlled and traceable process to avoid inconsisten
 Once deployed, a complete functional and technical validation must be performed.
 
 **Verification Steps**  
-✅ Check UI accessibility and navigation  
-✅ Verify key flows (Case, Opportunity, Account)  
-✅ Review Apex test results (≥ 75% coverage)  
-✅ Validate integration endpoints (if any)  
+- Check UI accessibility and navigation  
+- Verify key flows (Case, Opportunity, Account)  
+- Review Apex test results (≥ 75% coverage)  
+- Validate integration endpoints (if any)  
 
 **QA Role**  
 - Execute regression tests on UAT or staging environments   
