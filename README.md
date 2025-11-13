@@ -5,11 +5,11 @@ Covers IDM, Salesforce and generic CI/CD environments with reusable documentatio
 ---
 
 ## At a Glance  
-✅ Deployment processes for IDM and CRM systems  
-⚙️ Automation examples and CI/CD pipeline guidance  
-📝 Pre- and post-deployment verification checklists  
-📊 Sample logs and reports (anonymized)  
-🎯 Documentation of workflows and QA verification practices  
+- **Deployment processes for IDM and CRM systems**  
+- **Automation examples and CI/CD pipeline guidance**  
+- **Pre- and post-deployment verification checklists**  
+- **Sample logs and reports** (anonymized)  
+- **Documentation of workflows and QA verification practices** 
 
 
 ## Structure
